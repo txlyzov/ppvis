@@ -1,25 +1,32 @@
+import javafx.beans.property.SimpleIntegerProperty;
+
 import java.sql.Time;
 
 public class Book {
 
-    private Time avaliableReadingTime;
+    private Time availableReadingTime;
     private String amount;
+
+    public Book(Time availableReadingTime,String amount){
+        this.availableReadingTime = availableReadingTime;
+        this.amount = amount;
+    }
 
     public int compare (Book book){
 
         return integer;
     }
 
-    public void setAvaliableReadingTime(Time newTime){
-        avaliableReadingTime=newTime;
+    public void setAvailableReadingTime(Time newTime){
+        availableReadingTime=newTime;
     }
 
     public void setAmount(String newAmount){
         amount=newAmount;
     }
 
-    public Time getAvaliableReadingTime(){
-        return avaliableReadingTime;
+    public Time getAvailableReadingTime(){
+        return availableReadingTime;
     }
 
     public String getAmount(){

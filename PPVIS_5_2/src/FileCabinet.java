@@ -7,12 +7,12 @@ public class FileCabinet {
 
 
 
-    public void addBook(){
+    public void addCard(){
         UserCard card = new UserCard();
         cardList.add(card);
     }
 
-    public void removeBook(){
+    public void removeCard(){
         cardList.remove();
     }
 
@@ -21,7 +21,7 @@ public class FileCabinet {
         return searchResult;
     }
 
-    public void updateBook(){
+    public void updateCard(){
         UserCard card = cardList.get();
         cardList.set(,card);
     }

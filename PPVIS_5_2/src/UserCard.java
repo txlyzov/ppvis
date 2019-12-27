@@ -9,13 +9,13 @@ public class UserCard {
     private int phoneNumber;
     private int id;
 
-
-//    public int getCount() {
-//      //  return count;
-//    }
-//
-//    public void setCount(int count) {
-//  //      this.count = count;
-//    }
+    public UserCard(String fullName,String adress,Date registrationDate,String password,int phoneNumber,int id){
+        this.fullName = fullName;
+        this.adress = adress;
+        this.registrationDate = registrationDate;
+        this.password = password;
+        this.phoneNumber = phoneNumber;
+        this.id = id;
+    }
 
 }

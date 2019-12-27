@@ -6,18 +6,18 @@ public class BookService {
 
     private List<Book> searchResult;
 
-    public void getBook(String userName,String bookName){
+    public void getBook(UserCard userCard,){
 
-    };
+    }
 
-    public void returnBook(String userName,String bookName){
+    public void returnBook(UserCard userCard,){
 
-    };
+    }
 
-    public boolean checkBookAvaliable(String bookName){
+    public boolean checkBookAvaliable(Book book){
         boolean bookStatus;
         return bookStatus;
-    };
+    }
 
     public List<Book> showAllBooks(){
         return archive.getBookList();
